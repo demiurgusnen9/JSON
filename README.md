@@ -1,17 +1,21 @@
 # JSON
 
-JSON
- 4. Создать внешний репозиторий c названием JSON.
- 5. Клонировать репозиторий JSON на локальный компьютер.---------------------------$ git clone https://github.com/demiurgusnen9/JSON.git
+### Создать внешний репозиторий c названием JSON.
+
+`https://github.com/demiurgusnen9/JSON.git`
+
+### Клонировать репозиторий JSON на локальный компьютер.
+```
+$ git clone https://github.com/demiurgusnen9/JSON.git
  
  Cloning into 'JSON'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
-
- 
- 6. Внутри локального JSON создать файл “new.json”.--------------------------------$ cd JSON          $ touch new.json
+```
+### Внутри локального JSON создать файл “new.json”.
+```$ cd JSON          $ touch new.json
  7. Добавить файл под гит.---------------------------------------------------------$ git add new.json
  8. Закоммитить файл.--------------------------------------------------------------$ git commit -m "add new.json"
  
