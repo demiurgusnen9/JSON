@@ -111,18 +111,7 @@ To https://github.com/demiurgusnen9/JSON.git
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 20. Синхронизировать внешний и локальный репозиторий JSON----------------------
-  $ git fetch
-  
-  remote: Enumerating objects: 7, done.
-remote: Counting objects: 100% (7/7), done.
-remote: Compressing objects: 100% (5/5), done.
-remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (6/6), 1.45 KiB | 74.00 KiB/s, done.
-From https://github.com/demiurgusnen9/JSON
-   d7940c9..f5dd38b  main       -> origin/main
-
-  $ git pull
+ 20. Синхронизировать внешний и локальный репозиторий JSON----------------------$ git pull
 
 Updating d7940c9..f5dd38b
 Fast-forward
