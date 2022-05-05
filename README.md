@@ -49,20 +49,19 @@ $ vim new.json
 ```
 $ git commit -am "add info new.json"
  
-warning: LF will be replaced by CRLF in new.json.
-The file will have its original line endings in your working directory
-[main 6078f2a] add info new.json
-1 file changed, 6 insertions(+)
-``` 
-```$ git push
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 447 bytes | 447.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/demiurgusnen9/JSON.git
-023c0a5..6078f2a  main -> main
+ warning: LF will be replaced by CRLF in new.json.
+ The file will have its original line endings in your working directory
+ [main 6078f2a] add info new.json
+ 1 file changed, 6 insertions(+)
+$ git push
+ Enumerating objects: 5, done.
+ Counting objects: 100% (5/5), done.
+ Delta compression using up to 2 threads
+ Compressing objects: 100% (3/3), done.
+ Writing objects: 100% (3/3), 447 bytes | 447.00 KiB/s, done.
+ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+ To https://github.com/demiurgusnen9/JSON.git
+ 023c0a5..6078f2a  main -> main
 ```
 ### Создать файл preferences.json
 `
